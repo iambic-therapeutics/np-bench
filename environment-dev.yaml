@@ -1,0 +1,37 @@
+name: np-bench-dev
+
+channels:
+  - https://conda.anaconda.org/bioconda
+  - https://conda.anaconda.org/conda-forge
+
+dependencies:
+  # Python and build tools
+  - python ==3.12.*
+  - pip
+  - setuptools
+
+  # Testing Runtime
+  - pytest >=8.0.0,<9.0.0a
+  - pytest-mock >=3.0.0,<4.0.0a
+
+  # Testing Static
+  - mypy >=1.11.2,<2.0.0a
+  - bandit >=1.0.0,<2.0.0a
+  - black >=24.0.0,<25.0.0a
+  - pylint >=2.14.4,<3.0.0a
+  - ruff >=0.3.0,<0.4.0a
+
+  # Package dependencies
+  - typer >=0.9.0,<1.0.0a
+  - pandas >=2.0.0,<3.0.0a
+  - numpy >=1.21.0,<2.0.0a
+  - pydantic >=2.0.0,<3.0.0a
+  - pymol-open-source >=2.5.0,<4.0.0a
+  - usalign ==2024.07.30
+  - posebusters >=0.3.1,<0.4.0a
+  - DockQ >=2.1.3,<3.0.0a
+  - rdkit >=2024.03.3,<2024.04.0a
+  - parmed >=4.2.2,<5.0.0a
+  - more-itertools >=10.0.0,<11.0.0a
+  - scipy >=1.0.0,<2.0.0a
+  - biopython >=1.0.0,<2.0.0a

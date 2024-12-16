@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 120
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 120
+target-version = 'py310'
+exclude = ["_version.py"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"*/tests/**.py" = ["INP001"]

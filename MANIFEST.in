@@ -1,0 +1,12 @@
+include LICENSE
+include versioneer.py
+include setup.cfg
+include MANIFEST.in
+
+exclude README.md
+exclude pyproject.toml
+
+graft neuralplexer_benchmarks
+global-exclude *.py[cod] __pycache__ tests
+include neuralplexer_benchmarks/_version.py
+include neuralplexer_benchmarks/py.typed

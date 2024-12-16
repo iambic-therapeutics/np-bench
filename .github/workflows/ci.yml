@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  run-checks-and-tests:
+    name: Run Tests and Checks 
+    strategy:
+      fail-fast: true
+    runs-on: ubuntu-latest
+    container:
+      image: condaforge/mambaforge:24.9.2-0
+      volumes:
+        - ${{ github.workspace }}:${{ github.workspace }}
+      options: "-u 1001:1001"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install
+        shell: bash {0}
+        run: |
+          mamba env create -f environment.yaml -n np-bench-env
+          mamba run -n np-bench-env pip install -e . --config-settings editable_mode=compat
+
+      - name: PyTest
+        shell: bash {0}
+        run: |
+          mamba run -n np-bench-env pytest -rws -v --durations=10 --color=yes neuralplexer_benchmarks/
+
+      - name: MyPy Check
+        shell: bash {0}
+        run: |
+          mamba run -n np-bench-env mypy neuralplexer_benchmarks
