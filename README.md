@@ -52,7 +52,7 @@ Below are detailed usages of the two benchmarking commands and the corresponding
 
 Note that the model predictions do not need to be aligned with the reference structures; NPBench handles structure postprocessing. 
 
-The Posebusters and Recent PDB Evaluation datasets can be downloaded from [Zenodo](https://zenodo.org/records/14498115).
+The Posebusters and Recent PDB Evaluation datasets can be downloaded from [Zenodo](https://zenodo.org/records/14503936).
 
 ## Usage
 
@@ -148,7 +148,7 @@ where:
     - 'DNA:ligand': DNA-ligand interface
     - 'RNA:ligand': RNA-ligand interface
 
-The benchmark dataset and the index file `recent_pdb_eval_set_v2_w_CASP15RNA_reduced.csv` can be obtained [here](https://zenodo.org/records/14498115).
+The benchmark dataset and the index file `recent_pdb_eval_set_v2_w_CASP15RNA_reduced.csv` can be obtained [here](https://zenodo.org/records/14503936).
 To use a custom dataset, the dataset folder must have the following structure:
 ```
 dataset_folder/                                                                                                                                          
