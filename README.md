@@ -227,7 +227,5 @@ Qiao, Zhuoran, Feizhi, Ding, Thomas, Dresselhaus, Mia A., Rosenfeld, Xiaotian, H
 archivePrefix = {arXiv},
        eprint = {2412.10743},
  primaryClass = {cs.LG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241210743Q},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
