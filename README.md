@@ -201,3 +201,33 @@ np-bench plot-stats \
   --method-name AF2M --scoring-df results/af2m_results/metrics/conf_1_metrics.csv \
   --method-name NP3 --scoring-df results/NPv3-base-ranked/metrics/top_ranked_metrics.csv
 ```
+
+Example outputs: 
+
+![scoring_example](https://github.com/user-attachments/assets/b54e8c4c-1cc0-457c-be5a-3e5005cc06b5)
+
+
+# Citing NPBench
+
+If you used NPBench, please incorporate the following citation into any publications or public disclosures originated from the study:
+
+Qiao, Zhuoran, Feizhi, Ding, Thomas, Dresselhaus, Mia A., Rosenfeld, Xiaotian, Han, Owen, Howell, Aniketh, Iyengar, Stephen, Opalenski, Anders S., Christensen, Sai, Krishna Sirumalla, Frederick R., Manby, Thomas F., Miller III, Matthew, Welborn. "NeuralPLexer3: Physio-Realistic Biomolecular Complex Structure Prediction with Flow Models". _arXiv e-prints._ (2024): arXiv:2412.10743.
+
+
+```
+@article{neuralplexer3,
+       author = {{Qiao}, Zhuoran and {Ding}, Feizhi and {Dresselhaus}, Thomas and {Rosenfeld}, Mia A. and {Han}, Xiaotian and {Howell}, Owen and {Iyengar}, Aniketh and {Opalenski}, Stephen and {Christensen}, Anders S. and {Krishna Sirumalla}, Sai and {Manby}, Frederick R. and {Miller III}, Thomas F. and {Welborn}, Matthew},
+        title = "{NeuralPLexer3: Physio-Realistic Biomolecular Complex Structure Prediction with Flow Models}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Machine Learning, Physics - Chemical Physics, Quantitative Biology - Biomolecules},
+         year = 2024,
+        month = dec,
+          eid = {arXiv:2412.10743},
+        pages = {arXiv:2412.10743},
+archivePrefix = {arXiv},
+       eprint = {2412.10743},
+ primaryClass = {cs.LG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv241210743Q},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
