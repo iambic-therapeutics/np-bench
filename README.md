@@ -217,7 +217,7 @@ Qiao, Zhuoran, Feizhi, Ding, Thomas, Dresselhaus, Mia A., Rosenfeld, Xiaotian, H
 ```
 @article{neuralplexer3,
        author = {{Qiao}, Zhuoran and {Ding}, Feizhi and {Dresselhaus}, Thomas and {Rosenfeld}, Mia A. and {Han}, Xiaotian and {Howell}, Owen and {Iyengar}, Aniketh and {Opalenski}, Stephen and {Christensen}, Anders S. and {Krishna Sirumalla}, Sai and {Manby}, Frederick R. and {Miller III}, Thomas F. and {Welborn}, Matthew},
-        title = "{NeuralPLexer3: Physio-Realistic Biomolecular Complex Structure Prediction with Flow Models}",
+        title = "{NeuralPLexer3: Accurate Biomolecular Complex Structure Prediction with Flow Models}",
       journal = {arXiv e-prints},
      keywords = {Computer Science - Machine Learning, Physics - Chemical Physics, Quantitative Biology - Biomolecules},
          year = 2024,
