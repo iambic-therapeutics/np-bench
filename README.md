@@ -5,7 +5,7 @@ A turnkey library for benchmarking 3D biomolecular structure prediction models.
 
 # Installation
 
-NPBench and it's dependencies are installed with the [Conda](https://docs.anaconda.com/miniconda/) package manager.
+NPBench and its dependencies are installed with the [Conda](https://docs.anaconda.com/miniconda/) package manager.
 
 ## From source
 
